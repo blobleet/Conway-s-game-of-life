@@ -39,7 +39,7 @@ def events():
 
         if pygame.mouse.get_pressed(3)[0]:
             if mouse_pos not in live_spots:
-                print(mouse_pos)
+                # print(mouse_pos)
                 live_spots.append((mouse_posx, mouse_posy))
         elif pygame.mouse.get_pressed(3)[2]:
             if mouse_pos in live_spots:
